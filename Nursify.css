@@ -1,0 +1,219 @@
+html,
+body {
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizelegibility;
+    color: #6c6f79;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    color: #333;
+}
+
+h6 {
+    font-weight: bold;
+    font-size: 0.8rem;
+    letter-spacing: 0.1rem;
+}
+
+h6n {
+    font-weight: bold;
+    font-size: 1.2rem;
+    letter-spacing: 0.1rem;
+}
+
+img {
+    max-width: 100%;
+}
+
+.blockquote {
+    font-size: 1.6rem;
+    color: #333;
+    border: none;
+    padding: 0;
+}
+
+.blockquote-footer {
+    margin: 1rem 0 0;
+}
+
+#main-footer {
+    padding: 2rem 0;
+    font-size: 0.85rem;
+    color: black;
+}
+
+#stage {
+    background: url('img/nursify-background.png') center center no-repeat;
+    background-size: cover;
+    color: black;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#nursify-stage {
+    background: url('img/nursify-background.png') center center no-repeat;
+    background-size: cover;
+    color: black;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+}
+
+#stage-caption {
+    font-size: 1.4rem;
+    font-weight: 200;
+    max-width: 60rem;
+    margin: 0 auto;
+}
+
+#stage-caption h1 {
+    color: black;
+}
+
+.feature-content {
+    padding: 4rem 0;
+    overflow: hidden;
+}
+
+.feature-dark {
+    background: #DADADA;
+}
+
+.feature-footer {
+    background: red;
+    /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, rgba(255, 0, 0, 0), rgba(255, 0, 0, 1));
+    /*Safari 5.1-6*/
+    background: -o-linear-gradient(right, rgba(255, 0, 0, 0), rgba(255, 0, 0, 1));
+    /*Opera 11.1-12*/
+    background: -moz-linear-gradient(right, rgba(255, 0, 0, 0), rgba(255, 0, 0, 1));
+    /*Fx 3.6-15*/
+    background: linear-gradient(to right, rgba(255, 0, 0, 0), rgba(255, 0, 0, 1));
+    /*Standard*/
+} 
+
+.feature-dark h2 {
+    color: #CB0000
+}
+
+.feature-light {
+    background: #F3F3F3;
+}
+
+.feature-light h2 {
+    color: #CB0000
+}
+
+.feature-image {
+    padding: 1em;
+}
+
+#feature-two {
+    background: red;
+    /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, rgba(255, 0, 0, 0), rgba(255, 0, 0, 1));
+    /*Safari 5.1-6*/
+    background: -o-linear-gradient(right, rgba(255, 0, 0, 0), rgba(255, 0, 0, 1));
+    /*Opera 11.1-12*/
+    background: -moz-linear-gradient(right, rgba(255, 0, 0, 0), rgba(255, 0, 0, 1));
+    /*Fx 3.6-15*/
+    background: linear-gradient(to right, rgba(255, 0, 0, 0), rgba(255, 0, 0, 1));
+    /*Standard*/
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    padding: 1rem;
+}
+
+
+/* FAQ style */
+
+.faqHeader {
+    font-size: 27px;
+    margin: 20px;
+}
+
+@media screen and ( min-width: 991px) {
+    .feature-content {
+        display: flex;
+        align-items: center;
+    }
+    .feature-two {
+        display: flex;
+        align-items: flex-end;
+    }
+}
+
+
+/* Google Play Button */
+
+.big-btn {
+    padding: 10px 0px 11px 0px;
+    width: 215px;
+    margin-top: 0px;
+}
+
+.big-btn i {
+    font-size: 1rem;
+    margin-right: 0px !important;
+}
+
+.big-btn strong {
+    font-size: 1rem;
+    text-shadow: 1px 2px 0px #34659B;
+    color: #fff;
+    line-height: 6px;
+}
+
+.big-btn .btn-text {
+    margin-top: 6px;
+}
+
+.big-btn small {
+    font-size: 65%;
+}
+
+.android-btn {
+    width: 200px;
+    padding: 0px 17px 10px 0px;
+    background-color: #000;
+    border-color: #000;
+}
+
+.android-btn:hover {
+    background-color: #272727;
+}
+
+.android-btn i {
+    font-size: 5px;
+}
+
+.android-btn img {
+    padding-top: 8px;
+}
+
+.android-btn .btn-text {
+    margin-top: 0px;
+}
+
+.android-btn strong {
+    font-size: 15px;
+    text-shadow: none;
+    color: #fff;
+    line-height: 24px;
+}
