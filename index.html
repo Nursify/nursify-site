@@ -1,208 +1,243 @@
 <!DOCTYPE html>
+
 <html lang="en">
-
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Nursify</title>
-    <meta name="og:type" content="website">
-    <meta name="og:title" content="Nursify">
-    <meta name="og:description" content="Nursify, Android, GitHub, and more.">
-    <meta name="og:site_name" content="Figata.co/nursify.html">
-    <meta name="og:url" content="http://figata.co/nursify.html">
-    <meta name="og:image" content="/img/figata_transparent.png">
-    <link rel="shortcut icon" type="image/png" href="img/Nursify.png" />
-    <!---Bootstrap CSS --->
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <!---Custom CSS--->
-    <link rel="stylesheet" href="Nursify.css">
-    <!---Imported CSS--->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> </head>
 
-<body>
-    <nav class="navbar navbar-light bg-faded navbar-fixed-top">
-        <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#indexNavbar"> &#9776; </button>
-        <a class="navbar-brand" href="index.html"><img src="img/figata_transparent.png" alt="Figata" title="Figata" height="30"></a>
-        <div class="collapse navbar-toggleable-xs" id="indexNavbar">
-            <ul class="nav navbar-nav pull-sm-right">
-                <li class="nav-item active"> <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a> </li>
-                <li class="nav-item"> <a class="nav-link" href="#learn-more">Learn more</a> </li>
-                <li class="nav-item"> <a class="nav-link" href="#faq">FAQ</a> </li>
-            </ul>
+    <!-- Html Page Specific -->
+    <meta charset="utf-8">
+    <title>Nursify - Act fast, save lifes</title>
+    <meta name="description" content="Nursify - Act fast, save lives">
+    <meta name="author" content="Nursify">
+    <!-- Mobile Specific -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/animate.css"/>
+    <link rel="stylesheet" href="css/simple-line-icons.css"/>
+    <link rel="stylesheet" href="css/icomoon-soc-icons.css"/>
+    <link rel="stylesheet" href="css/magnific-popup.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/settings.css"/>
+
+    <!-- Favicons -->
+    <link rel='icon' type='image/x-icon' href="images/favicon.ico"/>
+    <link rel="apple-touch-icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+</head>
+
+<body data-spy="scroll" data-target=".navMenuCollapse">
+
+<div id="wrap">
+
+    <!-- NAVIGATION BEGIN -->
+    <nav class="navbar navbar-fixed-top navbar-slide">
+        <div class="container_fluid">
+            <a class="navbar-brand goto" href="index.html#wrap">
+                <img src="./images/logo_nav.png" alt="Nursify logo" height="40" width="40"/> </a>
+            <!--<a class="contact-btn icon-envelope" data-toggle="modal" data-target="#modalContact"></a>-->
+            <button class="navbar-toggle menu-collapse-btn collapsed" data-toggle="collapse"
+                    data-target=".navMenuCollapse"><span class="icon-bar"></span> <span class="icon-bar"></span> <span
+                    class="icon-bar"></span></button>
+            <div class="collapse navbar-collapse navMenuCollapse">
+                <ul class="nav">
+                    <li><a href="#benefits1">About Nursify</a></li>
+                    <li><a href="#screenshots">The app</a></li>
+                    <li><a href="#testimonials">They said about us</a></li>
+                    <li><a href="#social">Stay tuned</a></li>
+                </ul>
+            </div>
         </div>
     </nav>
-    <section id="feature-two" class="feature">
+    <!-- NAVIGAION END -->
+
+    <!-- INTRO BEGIN -->
+    <header id="full-intro" class="intro-block bg-color-main">
+
         <div class="container">
             <div class="row">
-                <div class="feature-content">
-                    <div class="col-sm-6 feature-caption" style="padding:2rem;">
-                        <h6>Introducing</h6>
-                        <h1>Nursify</h1>
-                        <hr>
-                        <p class="lead">Act fast, save lives</p> <a href="#learn-more" role="button" class="btn btn-danger-outline btn-lg">
-								Learn more
-							</a>
-                        <a class="btn btn-lg btn-success big-btn android-btn" href="https://play.google.com/store/apps/details?id=co.figata.nursify" target="_blank"> <img width="60px" class="pull-left" src="img/google_play.png">
-                            <div class="btn-text"> <small>Open Beta</small>
-                                <br> <strong>Google Play</strong> </div>
-                        </a>
+                <div class="col-md-8 col-sm-12"><img class="logo" src="./images/logo.png" alt="Nursify Logo"
+                                                     height="144"
+                                                     width="144"/>
+                    <h1 class="slogan">Act fast, save lifes</h1>
+                    <a class="download-btn-alt android-btn" target="_blank"
+                       href="https://play.google.com/store/apps/details?id=co.figata.nursify"> <i
+                            class="icon soc-icon-android"></i>Download for <b>Android</b> </a></div>
+                <div class="col-md-4 hidden-sm hidden-xs">
+                    <img class="intro-screen" src="images/intro_screen.png" width="400" alt=""/>
+                </div>
+            </div>
+        </div>
+        <div class="block-bg" data-stellar-ratio="0.4"></div>
+    </header>
+    <!-- INTRO END -->
+
+    <!-- BENEFITS1 BEGIN -->
+    <section id="benefits1" class="img-block-2col">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="title">
+                        <h2>About Nursify</h2>
                     </div>
-                    <div class="col-xs-6"> <img src="img/3_framed.png" alt="Android" style="padding-top:1em;"> </div>
+                    <ul class="item-list-left">
+                        <li><i class="icon icon-info color"></i>
+                            <h4 class="color">What is Nursify?</h4>
+                            <p>Nursify is a mobile device application that connects people who need
+                                First Aid Help with volunteers trained to provide First Aid Help.
+                            </p>
+                        </li>
+                        <li><i class="icon icon-like color"></i>
+                            <h4 class="color">How it works</h4>
+                            <p>With a single button click, people in need or present to an incident can request First
+                                Aid Help.</p>
+                        </li>
+                        <li><i class="icon icon-hourglass color"></i>
+                            <h4 class="color">What happens next?</h4>
+                            <p>Volunteers receive the notification and, if available, respond to it again with
+                                a simple button click declaring that they are on their way.</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-5 col-md-offset-1 col-sm-6">
+                    <div class="screen-couple-right wow fadeInRightBig">
+                        <div class="flare"><img class="base wow" src="images/flare_base.png" alt=""/> <img
+                                class="shapes wow" src="images/flare_shapes.png" alt=""/></div>
+                        <img class="screen above" src="images/screen_couple_above.png" alt="" width="250"/> <img
+                            class="screen beyond wow fadeInRight" data-wow-delay="0.5s"
+                            src="images/screen_couple_beyond.png" alt="" width="210"/></div>
                 </div>
             </div>
         </div>
     </section>
-    <section id="learn-more" class="feature-dark">
+    <!-- BENEFITS1 END -->
+
+    <!-- VIDEO BEGIN -->
+    <section id="video">
         <div class="container">
-            <div class="row">
-                <h2 style="padding-top:4rem;text-align: center;">Nursify is an Android app to request help from nearby volunteers</h2>
-                <hr>
-                <div class="feature-content">
-                    <div class="col-lg-6 ">
-                        <p class="lead">What problem is it solving:</p>
-                        <div class="row">
-                            <ul>
-                                <h6n>When someone requires first aid assistance, we have to call the ambulance, BUT:</h6n>
-                                <p>
-                                    <li>It takes time to arrive, especially when you are in a remote location</li>
-                                    <li>Someone able to help could be nearby!</li>
-                            </ul>
-                        </div>
-                        <p>
-                            <p class="lead">But how do I find this person?</p>
-                            <div class="row">
-                                <ul>
-                                    <h6n>Realistically, you clould:</h6n>
-                                    <li>Scream and shout HELP</li>
-                                    <p>
-                                        <h6n>OR</h6n>
-                                        <li>Scream and shout HELP, but also use <span style="font-weight: bold;">Nursify!</span></li>
-                                </ul>
-                            </div>
-                            <p class="lead">What happens next?</p>
-                            <div class="row">
-                                <ul>
-                                    <li>A nearby registered volunteer is getting notified about the incident and decides upon helping or not</li>
-                                    <li>The person requested help is getting notified that someone able to help in on his way there</li>
-                                </ul>
-                            </div>
-                    </div>
-                    <div class="col-lg-6 col-lg-offset-1 feature-light" style="padding:1rem;">
-                        <h2>Usually</h2>
-                        <h6n>An ambulance takes about 7 minutes to arrive <a href=" http://www.ambulanceresponsetimes.co.uk/" class="btn btn-link   active" role="button">Link</a></h6n>
-                    </div>
-                </div>
+            <div class="title">
+                <h2>Learn how Nursify is used</h2>
+                <p>Watch the demo</p>
+            </div>
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/uZ8iLs0K7AI" frameborder="0" allowfullscreen></iframe>
             </div>
         </div>
     </section>
-    <!--- Video --->
-     <section id="feature-dark" class="feature-light">
-        <div class="container">
-            <div class="row">
-                <div class="feature-content">
-                    <div class="col-lg-6 feature-caption">
-                        <h6>
-								
-							</h6>
-                        <h2>
-								Learn how Nursify is used
-							</h2>
-                            <h3>
-								Watch the demo
-							</h3>
-                            
-                    </div>
-                    <div class="col-lg-6" style="padding-top:3rem;">
-                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/uZ8iLs0K7AI" frameborder="0" allowfullscreen></iframe>
-                    </div>
-                </div>
+    <!-- VIDEO END -->
+
+    <!-- SCREENSHOTS BEGIN -->
+    <section id="screenshots" class="bg-color2">
+        <div class="container-fluid">
+            <h2>Screenshots</h2>
+            <div id="screenshots-slider" class="owl-carousel">
+
+                <a class="item" href="./images/screen1.png" title="Nursify - Main Screen"><img src="images/screen1.png"
+                                                                                               alt="screen1" width="250"
+                                                                                               height="444"/></a>
+
+                <a class="item" href="./images/screen2.png" title="Nursify - History"><img src="images/screen2.png"
+                                                                                           alt="screen1" width="250"
+                                                                                           height="444"/></a>
+
+                <a class="item" href="./images/screen3.png" title="Nursify - Settings"><img src="images/screen3.png"
+                                                                                            alt="screen1" width="250"
+                                                                                            height="444"/></a>
+
+                <a class="item" href="./images/screen4.png" title="Nursify - Volunteer Notification"><img
+                        src="images/screen4.png" alt="screen1" width="250" height="444"/></a>
             </div>
         </div>
     </section>
-    <!--- FAQ section --->
-    <section id="faq" class="feature-dark">
-        <div class="container">
-            <div class="row">
-                <h2 style="padding-top:4rem;text-align: center;">FAQ:</h2>
-                <hr>
-                <div class="feature-content">
-                    
-                    
-                    
-                    <div id="accordion" role="tablist" aria-multiselectable="true">
-                        <div class="accordion-panel">
-                            <div class="accordion-heading" role="tab" id="headingOne">
-                                <h4 class="panel-title">
-										<a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-										What minimum characteristics are needed for the app to be able to work as designed?
-										</a>
-									</h4> 
-                            </div>
-                            <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
-                                <h6>Both the volunteer and the person in need of help need to have:</h6>
-                                <ul>
-                                    <li>Location enabled, to notify you for an incident, or use your location to notify others when you need help.</li>
-                                    <li>Internet connectivity.</li>
-                                </ul>
-                            </div>
-                            
-                            <p>
-                                
-                            <div class="accordion-heading" role="tab" id="headingTwo">
-                                <h4 class="panel-title">
-								<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-								Do I have to bee a volunteer to use the app?
-								</a>
-                                </h4> 
-                            </div>
-                            <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo"> No. You can simply use the app to call for help.
-                            </div>
-                            
-                            <p>
-                                
-                            <div class="accordion-heading" role="tab" id="headingThree">
-                                <h4 class="panel-title">
-								<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-								Are you tracking us?
-								</a>
-                                </h4> 
-                            </div>
-                            <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree"> Nursify needs only your last location. We do not track you continuously, although your latitude and longtitude      are set to be transmited to our server at a specific interval, we only keep your last location and overwrite the data upon a location change. 
-                            </div>
-                            
-                            <p>
-                                
-                            <div class="accordion-heading" role="tab" id="headingFour">
-                                    <h4 class="panel-title">
-								        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-								            Is it free?
-								        </a>
-                                    </h4> 
-                            </div>
-                            <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour"> Yes it is <i class="fa fa-smile-o"></i> 
-                            </div>
-                        </div>
+    <!-- SCREENSHOTS END -->
+
+    <!-- TESTIMONIALS BEGIN -->
+    <section id="testimonials" class="bg-color3">
+        <div class="container-fluid">
+            <h2>They said about us</h2>
+            <div id="testimonials-slider" class="owl-carousel">
+                <div class="item container">
+                    <div class="talk">Everyone can help to make everyone's life better and it doesn't cost anything.
                     </div>
-                    
-                    
-                    
+                    <a href="http://www.maxmag.gr/synenteukseis/nursify/" target="_blank"><img class="photo"
+                                                                                               src="images/maxmag.jpg"
+                                                                                               alt="maxmag"/></a>
+                    <div class="name">maxmag.gr</div>
+                </div>
+                <div class="item container">
+                    <div class="talk">The application that saving lifes. With just one click you can receive first aid
+                        help.
+                    </div>
+                    <a href="http://ipop.gr/themata/eimai/nursify-app-pou-sozi-zoes-m-ena-klik-lamvanis-protes-voithies-se-chrono-dt/"
+                       target="_blank"><img class="photo" src="images/ipop.jpg" alt="ipop"/></a>
+                    <div class="name">ipop.gr</div>
+                </div>
+                <div class="item container">
+                    <div class="talk">A groundbreaking application, that provides first aid help to those who need it!
+                    </div>
+                    <a href="http://www.ka-business.gr/pages/innovation/13618/mia-prwtoporiakh-efarmogh-poy-parexei-prwtes-bohtheies"
+                       target="_blank"><img class="photo" src="images/ka-bussiness.jpg" alt="ka-business"/></a>
+                    <div class="name">ka-business.gr</div>
                 </div>
             </div>
         </div>
+        <div class="block-bg"></div>
     </section>
-    <footer id="main-footer" class="footer feature-footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8"> <span class="text-md-left">&copy; 2016 Figata</span> </div>
-                <div class="col-md-4"> <span class="text-md-right">Made with <i class="fa fa-heart-o"></i>  in Greece</span> </div>
+    <!-- TESTIMONIALS END -->
+
+    <!-- SOCIAL BEGIN -->
+    <section id="social" class="bg-color2">
+        <div class="container-fluid">
+            <div class="title">
+                <h2>Stay tuned</h2>
+                <p>Follow us in social networks.</p>
             </div>
+            <ul class="soc-list wow flipInX">
+                <li><a href="https://twitter.com/nursify_health" target="_blank"><i
+                        class="icon soc-icon-twitter"></i></a></li>
+                <li><a href="https://www.facebook.com/nursify/" target="_blank"><i
+                        class="icon soc-icon-facebook"></i></a></li>
+            </ul>
+        </div>
+    </section>
+    <!-- SOCIAL END -->
+
+    <!-- DOWNLOAD BEGIN -->
+    <section id="download" class="bg-color-main">
+        <div class="container-fluid wow fadeInDown"><a href="#wrap" class="goto">
+            <h2><i class="icon soc-icon-android"></i>Download App</h2>
+        </a></div>
+        <div class="block-bg" data-stellar-ratio="0.5"></div>
+    </section>
+    <!-- DOWNLOAD END -->
+
+    <!-- FOOTER BEGIN -->
+    <footer id="footer">
+        <div class="container"><a href="index.html#wrap" class="logo goto"> <img src="./images/logo_small.png"
+                                                                                 alt="Your Logo" height="72"
+                                                                                 width="72"/> </a>
+            <p class="copyright">&copy; 2017 Nursify</p>
         </div>
     </footer>
-    <!---jQuery--->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-</body>
+    <!-- FOOTER END -->
 
+</div>
+
+<!-- JavaScript -->
+<script src="scripts/jquery-1.8.2.min.js"></script>
+<script src="scripts/bootstrap.min.js"></script>
+<script src="scripts/owl.carousel.min.js"></script>
+<script src="scripts/jquery.validate.min.js"></script>
+<script src="scripts/wow.min.js"></script>
+<script src="scripts/smoothscroll.js"></script>
+<script src="scripts/jquery.smooth-scroll.min.js"></script>
+<script src="scripts/jquery.superslides.min.js"></script>
+<script src="scripts/placeholders.jquery.min.js"></script>
+<script src="scripts/jquery.magnific-popup.min.js"></script>
+<script src="scripts/jquery.stellar.min.js"></script>
+<script src="scripts/custom.js"></script>
+
+<script src="scripts/retina.min.js"></script>
+</body>
 </html>
