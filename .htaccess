@@ -1,7 +1,3 @@
-
-down vote
-This should work:
-
 RewriteEngine On
 RewriteCond %{HTTPS} =on
 RewriteCond %{HTTP_HOST} ^www\.
