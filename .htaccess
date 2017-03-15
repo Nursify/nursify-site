@@ -1,4 +1,4 @@
-RewriteEngine On
-RewriteCond %{HTTPS} =on
 RewriteCond %{HTTP_HOST} ^www\.
-RewriteRule ^(.*)$ https://nursify.eu/$1 [R,QSA,L]
+RewriteCond %{HTTPS}s ^on(s)|off
+RewriteCond http%1://%{HTTP_HOST} ^(https?://)(www\.)?(.+)$
+RewriteRule ^ %1%3%{REQUEST_URI} [R,L]
