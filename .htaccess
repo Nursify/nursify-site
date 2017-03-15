@@ -1,8 +1,8 @@
+
+down vote
+This should work:
+
 RewriteEngine On
-
-# Check that you're on port 443 and the hostname starts with www
-RewriteCond %{SERVER_PORT} ^443
+RewriteCond %{HTTPS} =on
 RewriteCond %{HTTP_HOST} ^www\.
-
-# Redirect to domain without the www
-RewriteRule (.*) https://nursify.eu$1 [L,R,QSA]
+RewriteRule ^(.*)$ https://nursify.eu/$1 [R,QSA,L]
